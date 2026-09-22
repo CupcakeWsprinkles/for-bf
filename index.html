@@ -10,27 +10,67 @@
         /* Imports the exact VT323 pixel font from Google Fonts */
         @import url('https://googleapis.com');
 
-      body {
-    /* Lädt dein GIF – der Punkt und Schrägstrich am Anfang macht es sicherer für Handys */
-    background-image: url('./hintergrund.gif'); 
-    
-    /* ERZWINGT DIE VERTIKALE ANPASSUNG: */
-    background-size: cover;             /* Streckt das GIF so, dass es immer den ganzen Bildschirm ausfüllt */
-    background-position: center top;    /* Zentriert das GIF horizontal und fixiert es oben am Rand */
-    background-repeat: no-repeat;       /* Verhindert, dass sich das GIF unschön kachelt/wiederholt */
-    background-attachment: fixed;       /* Fixiert das GIF beim Scrollen */
-    
-    /* Sorgt dafür, dass das Fenster auf allen Geräten perfekt in der Mitte sitzt */
-    margin: 0;
-    padding: 15px; 
-    font-family: 'VT323', monospace;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    box-sizing: border-box;
-    background-color: #1a1a1a; /* Hintergrundfarbe, falls das GIF mal lädt */
+     body {
+
+14
+
+/* REPLACE WITH YOUR IMAGE: Put your background image filename here */
+
+15
+
+background-image: url('hintergrund.gif);
+
+16
+
+background-size: cover;
+
+17
+
+background-position: center;
+
+18
+
+background-attachment: fixed;
+
+19
+
+background-color: #1a1ala; /* Dark gray fallback if background image is missing */
+
+20
+
+margin: 0;
+
+21
+
+padding: 20px;
+
+22
+
+font-family: 'VT323', monospace;
+
+23
+
+font-size: 20px;
+
+24
+
+display: flex;
+
+25
+
+justify-content: center;
+
+26
+
+align-items: center;
+
+27
+
+min-height: 100vh;
+
+28
+
+box-sizing: border-box;
 }
 
 
