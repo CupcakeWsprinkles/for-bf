@@ -11,16 +11,16 @@
         @import url('https://googleapis.com');
 
       body {
-    /* REPLACE WITH YOUR IMAGE: Put your background image filename here */
-    background-image: url('hintergrund.gif'); 
+    /* Lädt dein GIF – der Punkt und Schrägstrich am Anfang macht es sicherer für Handys */
+    background-image: url('./hintergrund.gif'); 
     
-    /* Erzwingt die vertikale Anpassung fürs Handy, ohne das GIF zu verzerren */
-    background-size: cover;
-    background-position: center top; 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* ERZWINGT DIE VERTIKALE ANPASSUNG: */
+    background-size: cover;             /* Streckt das GIF so, dass es immer den ganzen Bildschirm ausfüllt */
+    background-position: center top;    /* Zentriert das GIF horizontal und fixiert es oben am Rand */
+    background-repeat: no-repeat;       /* Verhindert, dass sich das GIF unschön kachelt/wiederholt */
+    background-attachment: fixed;       /* Fixiert das GIF beim Scrollen */
     
-    /* Standard-Einstellungen für die Zentrierung des Fensters */
+    /* Sorgt dafür, dass das Fenster auf allen Geräten perfekt in der Mitte sitzt */
     margin: 0;
     padding: 15px; 
     font-family: 'VT323', monospace;
@@ -30,8 +30,9 @@
     align-items: center;
     min-height: 100vh;
     box-sizing: border-box;
-    background-color: #1a1a1a; 
+    background-color: #1a1a1a; /* Hintergrundfarbe, falls das GIF mal lädt */
 }
+
 
 
         /* Black Window Styling with White Text */
