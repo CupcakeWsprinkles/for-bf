@@ -11,8 +11,8 @@
         @import url('https://googleapis.com');
 
         body {
-            /* HIER DEIN BILD EINTRAGEN: Ersetze 'hintergrund.jpg' mit deinem Dateinamen */
-            background-image: url('hintergrund.jpg'); 
+            /* HIER DEIN BILD EINTRAGEN: Ersetze 'hintergrund.gif' mit deinem Dateinamen */
+            background-image: url('hintergrund.gif'); 
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
