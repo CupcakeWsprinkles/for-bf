@@ -10,23 +10,29 @@
         /* Imports the exact VT323 pixel font from Google Fonts */
         @import url('https://googleapis.com');
 
-        body {
-            /* REPLACE WITH YOUR IMAGE: Put your background image filename here */
-            background-image: url('stars.jpg'); 
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            background-color: #1a1a1a; /* Dark gray fallback if background image is missing */
-            margin: 0;
-            padding: 20px;
-            font-family: 'VT323', monospace;
-            font-size: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            box-sizing: border-box;
-        }
+      body {
+    /* REPLACE WITH YOUR IMAGE: Put your background image filename here */
+    background-image: url('hintergrund.gif'); 
+    
+    /* Erzwingt die vertikale Anpassung fürs Handy, ohne das GIF zu verzerren */
+    background-size: cover;
+    background-position: center top; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    /* Standard-Einstellungen für die Zentrierung des Fensters */
+    margin: 0;
+    padding: 15px; 
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-color: #1a1a1a; 
+}
+
 
         /* Black Window Styling with White Text */
         .window {
